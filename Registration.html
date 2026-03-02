@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	 registration Form
+</title>
+</head>
+<body>
+<form action="success.html">
+
+<label><b>First Name:</b></label>
+	<input type="text" name="first name" required><br><br>
+<label><b>Middle Name:</b></label>
+	<input type="text" name="middle name" required><br><br>
+<label><b>last Name:</b></label>
+	<input type="text" name="last name" required><br><br>
+
+<label for="address"><b>Address:</b></label>
+<textarea id="address" name="address"
+          rows="4" cols="40"
+          placeholder="Enter your full address"
+          required></textarea><br><br>
+
+<label for="mobile"><b>Mobile Number:</b></label>
+        <input type="tel" id="mobile" name="mobile" 
+               placeholder="Enter your mobile number"
+               pattern="[0-9]{10}" 
+               maxlength="10"
+               required><br><br>
+
+<label><b>Select College:</b></label>
+    <select name="college" required>
+        <option value="">-- Select College --</option>
+        <option value="DYP Engineering College">DYP Engineering College</option>
+        <option value="Kolhapur Institute of Technology">Kolhapur Institute of Technology</option>
+        <option value="Global College of Engineering">Global College of Engineering</option>
+        <option value="National Technical University">National Technical University</option>
+    </select>
+    <br><br>
+
+    <!-- Branch Checkboxes -->
+    <label><b>Select Branch(es):</b></label><br>
+    <input type="checkbox" name="branches[]" value="CSE"> CSE<br>
+    <input type="checkbox" name="branches[]" value="IT"> IT<br>
+    <input type="checkbox" name="branches[]" value="ECE"> ECE<br>
+    <input type="checkbox" name="branches[]" value="MECH"> MECH<br>
+    <br>
+
+<label><b>Technical Skills:</b></label><br>
+
+<select name="skills[]" multiple>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="Python">Python</option>
+    <option value="Java">Java</option>
+    <option value="C++">C++</option>
+</select>
+<br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+</body>
+</html>
+
+
