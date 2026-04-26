@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="kiran.css"?>
+
+<college>
+    
+	<student>
+		<name>Sanafatima Bhatare </name>
+		<gender>Female</gender>
+		<age> 20 </age>
+		<course> Computer  Engineering</course>
+		<year> second year</year>
+		<collegeName> D Y Patil college of engineering and technology, Kolhapur</collegeName>
+		<address>
+		<city> Kolhapur</city>
+		<state> Maharashtra</state>
+		<country> India </country>
+		</address>
+		<contact>
+		<mobile>1234656789</mobile>
+		<email>sanabhatare@gmail.com</email>
+		</contact>
+		<skills>
+		<p> Basic Java programming</p>
+		<p> Python</p>
+		<p> Web development</p>
+		</skill>
+</student>
+</college>
+

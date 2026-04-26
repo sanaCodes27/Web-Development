@@ -1,0 +1,55 @@
+college {
+display: block;
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+student {
+display: block;
+background-color: white;
+border: 2px solid #333;
+margin: 20px;
+padding: 15px;
+border-radius: 10px;
+}
+
+id,
+name,
+gender,
+age,
+course,
+year,
+collegeName,
+city,
+state,
+country,
+mobile,
+email,
+p {
+display: block;
+margin: 5px 0;
+font-size: 18px;
+}
+
+name {
+font-size: 24px;
+font-weight: bold;
+color: darkblue;
+}
+
+collegeName {
+color: darkgreen;
+font-weight: bold;
+}
+skills {
+display : block;
+margin-top: 10px;
+}
+
+p {
+color: purple;
+margin-left: 20px;
+} 
+
+
+ 
