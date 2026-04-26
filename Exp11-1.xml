@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type="text/css" href="library.css"?>
+
+<library>
+<book id="1001">
+<title> Learning XML</title>
+<author> John smith</author>
+<year> 2020</year>
+</book>
+<book id="1002">
+<title> Advanced XML </title>
+<author> Divya bagal</author>
+<year> 2026</year>
+</book>
+</library>
