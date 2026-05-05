@@ -2,15 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="Exp12-1.xsl"?>
 
 <friends>
-    <friend-1>
+    <friend>
         <name>Rahul</name>
         <age>20</age>
         <course>Computer Science</course>
-    </friend-1>
+    </friend>
 
-    <friend-2>
+    <friend>
         <name>Anita</name>
         <age>22</age>
         <course>Information Technology</course>
-    </friend-2>
+    </friend>
 </friends>
