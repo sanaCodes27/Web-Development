@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Exp12-1.xsl"?>
 
-<students>
-    <student>
+<friends>
+    <friend-1>
         <name>Rahul</name>
         <age>20</age>
         <course>Computer Science</course>
-    </student>
+    </friend-1>
 
-    <student>
+    <friend-2>
         <name>Anita</name>
         <age>22</age>
         <course>Information Technology</course>
-    </student>
-</students>
+    </friend-2>
+</friends>
