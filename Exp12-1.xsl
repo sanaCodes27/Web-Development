@@ -6,7 +6,7 @@
 
         <html>
         <head>
-            <title>Student Data</title>
+            <title>Friend circle</title>
             <style>
                 table {
                     border-collapse: collapse;
@@ -24,7 +24,7 @@
         </head>
 
         <body>
-            <h2>Student List</h2>
+            <h2>Friends circle</h2>
 
             <table>
                 <tr>
@@ -33,7 +33,7 @@
                     <th>Course</th>
                 </tr>
 
-                <xsl:for-each select="students/student">
+                <xsl:for-each select="friends/friend">
                     <tr>
                         <td><xsl:value-of select="name"/></td>
                         <td><xsl:value-of select="age"/></td>
